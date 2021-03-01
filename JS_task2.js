@@ -5,6 +5,7 @@
 
 // variant 1
 let arrayInput = [1,2,3,4,3,2,1];
+
 function arrayCleanPrint(arr)
 {
   for (let index = arr.indexOf (2, 0); index !== -1; index = arr.indexOf (2, 0)) 
@@ -24,5 +25,3 @@ function arrayCleanPrint2(arr)
 }
 
 arrayCleanPrint2(arrayInput)
-
-
