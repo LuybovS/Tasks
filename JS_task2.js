@@ -17,7 +17,6 @@ function arrayCleanPrint(arr)
 arrayCleanPrint(arrayInput);
 
 // variant 2
-
 function arrayCleanPrint2(arr)
 {
   let arrayClean = arr.filter(value => { return value !== 2});
